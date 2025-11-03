@@ -1,0 +1,28 @@
+body{
+    background-color: hotpink;
+}
+.meta{
+
+background-color: aliceblue;
+
+width: 30vw;
+height: 30vh;
+text-align: center;
+display: ;
+}
+
+
+form{
+padding-top: 10vh;
+}
+
+.toto{
+    height: 90px;
+}
+
+.fraction > button{
+  height: 8vh;
+  width: 7vw;
+  
+}
+
