@@ -1,28 +1,74 @@
-body{
-    background-color: hotpink;
-}
-.meta{
-
-background-color: aliceblue;
-
-width: 30vw;
-height: 30vh;
-text-align: center;
-display: ;
+body {
+    background-color: rgb(86, 120, 125);
 }
 
+.meta {
+    background-color: rgb(204, 40, 8);
+    width: 30vw;
+    height: 90vh;
+    text-align: center;
+    border-radius: 50px;
+   border: 7px solid black;
+   margin: 0 auto;
+}
 
-form{
-padding-top: 10vh;
+form {
+    padding-top: 10vh;
+    
+
+}
+
+#premierNombre {
+    height: 5vh;
+    width: 20vw;
+    border-radius: 4px;
+    margin-top: 2.5vh;
+    
+}
+
+#deuxiemeNombre {
+    height: 5vh;
+    width: 20vw;
+    border-radius: 4px;
+    margin-top: 2.5vh;
+}
+
+.affiche {
+    margin-top: 1vw;
+}
+
+.signe>button {
+    height: 7vh;
+    width: 7vw;
+    margin-top: 2.5vh;
+    border-radius: 4px;
+}
+
+#calculer {
+    margin-top: 9vh;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 4px;
+}
+
+#resultat {
+    height: 7vh;
+    width: 10vw;
+    margin-top: 7vh;
+    border-radius: 4px;
+}
+
+.raz {
+    margin-top: 5vh;
+
+
 }
 
 .toto{
-    height: 90px;
+    margin-bottom: ;
 }
 
-.fraction > button{
-  height: 8vh;
-  width: 7vw;
-  
-}
 
+P{
+   margin-bottom: ;
+}

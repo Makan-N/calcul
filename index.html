@@ -1,28 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body>
-<div class="meta">
-    <form>
-        <div class="toto">
-            <input id="premierNombre">
-        </div>
-        <div class="tata">
-            <input id="deuxiemeNombre">
-        </div>
-    </form>
 
-    <div class="fraction">
-      <button>+</button> 
-      <button>-</button>
-      <button>%</button>
-      <button>x</button>
+<body>
+    <div class="meta">
+
+        <form>
+            <div class="toto">
+                <input id="premierNombre">
+            </div>
+
+            <div class="affiche">
+                <input id="afficheSigne">
+            </div>
+
+            <div class="tata">
+                <input id="deuxiemeNombre">
+            </div>
+        </form>
+
+
+
+
+        <div class="signe">
+            <button id="plus">+</button>
+            <button id="moins">-</button>
+            <button id="diviser">/</button>
+            <button id="multiplication">x</button>
+        </div>
+
+        <div>
+            <input id="resultat">
+             <p>RESULTAT</p>
+        </div>
+
+        <button id="calculer">Calculer</button>
+        <div class="raz">
+            <button id="remiseAzero">RAZ</button>
+        </div>
+
+        <script src="js/style.js"></script>
     </div>
-</div>
 </body>
-<!-- </html><button type="submit" class="btn " id="btn">Submit</button> -->
